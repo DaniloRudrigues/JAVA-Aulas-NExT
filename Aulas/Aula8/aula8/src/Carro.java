@@ -1,6 +1,10 @@
 public class Carro extends Veiculo{
     private String marca;
 
+    public Carro(){
+
+    }
+    
     public Carro(String cor, String marca) {
         super(cor);
         this.marca = marca;
@@ -17,6 +21,9 @@ public class Carro extends Veiculo{
     public Carro(String cor) {
         super(cor);
     }
-
-
+    
+    @Override
+    public void metodoAula9 () {
+        System.out.println("aula 9 - classe CARRO");
+    }
 }

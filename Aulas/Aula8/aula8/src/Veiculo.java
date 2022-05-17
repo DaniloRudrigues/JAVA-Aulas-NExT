@@ -16,5 +16,7 @@ public class Veiculo {
     public Veiculo() {
     }
     
-    
+    public void metodoAula9 (){
+        System.out.println("Metodo aula 9 - classe Veiculo");
+    }
 }
